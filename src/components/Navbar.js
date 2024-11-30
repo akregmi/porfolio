@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { NavLinks } from "./consts";
 import { styles } from "../styles/Navbar.styles";
+import logo from '../assets/logo.png'
 
 const Navbar = () => {
 
@@ -11,9 +12,9 @@ const Navbar = () => {
   }
 
   return (
-      <nav className={`flex justify-between ${styles.paddingX} py-4`}>
+      <nav className={`flex flex-row items-center justify-between ${styles.paddingX} py-4`}>
         <div className="text-2xl font-bold">
-          <h2>YourLogo</h2>
+          <img src={logo} alt="logo" width={50} height={50}/>
         </div>
         <ul className="hidden space-x-8 md:flex">
           {NavLinks.map((nav) => (
