@@ -3,7 +3,7 @@ name: Deploy Portfolio to Bluehost
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
