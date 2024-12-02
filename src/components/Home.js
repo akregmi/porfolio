@@ -8,7 +8,7 @@ const HomePage = () => {
       <div className="max-w-3xl text-center">
         {/* Intro */}
         <h1 className="text-5xl font-semibold text-blue-600 mb-4">
-          Hi, I'm Testing Github Actions! 👋
+          Hi, I'm Aayush! 👋
         </h1>
         <p className="text-lg text-gray-700 mb-6">
           I'm a passionate software engineer with a focus on building engaging,
