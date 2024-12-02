@@ -21,7 +21,7 @@ jobs:
     - name: Deploy to Bluehost via FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ftp.akregmi.com
+        server: ftp.ijg.xeh.mybluehost.me
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: ./public_html/
